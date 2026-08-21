@@ -1,12 +1,5 @@
 # Social Media Screentime & Wellbeing — NTI ML Internship Project
 
-Your three responsibilities (Ensemble Learning, Unsupervised Learning, Deployment with UI)
-built around the actual `social_media_screentime_mental_health_2026.csv` dataset (7,000 rows).
-
-**Read `STUDY_GUIDE.md` before your discussion** — it has the plain-language explanations,
-the presentation script, and 25+ defense questions with model answers. This README is the
-technical run-book.
-
 ## The one thing to understand before anything else
 
 `wellbeing_band` (the target) is a **deterministic formula** of `anxiety_score_0to27` and

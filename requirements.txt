@@ -1,0 +1,19 @@
+# PINNED TO EXACT VERSIONS (not >=), matching the environment that trained
+# and joblib-saved models/wellbeing_pipeline.joblib. This matters more than
+# it might look: scikit-learn does NOT guarantee that a pickled model saved
+# with one version will load correctly with a different version - loading
+# with a mismatched version can raise errors or silently misbehave. Exact
+# pins here guarantee Streamlit Cloud installs the SAME scikit-learn (and
+# numpy, which sklearn's internals depend on) that produced the .joblib
+# file, rather than pip resolving to a newer/older version.
+streamlit==1.61.1
+pandas==3.0.2
+numpy==2.4.4
+scikit-learn==1.8.0
+matplotlib==3.10.8
+joblib==1.5.3
+
+# If you ever retrain the model (e.g. re-run 04_train_final_pipeline.py)
+# with different package versions, update this file to match AND re-commit
+# the new .joblib together with it in the same commit - the two must always
+# travel together.

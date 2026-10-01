@@ -1,4 +1,4 @@
-# Social Media Screentime & Wellbeing NTI ML Internship Project
+# Social Media Screentime & Wellbeing NTI ML Project
 
 ## The one thing to understand before anything else
 
